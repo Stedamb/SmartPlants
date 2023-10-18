@@ -16,7 +16,7 @@ const Gallery = () => {
         variants={fadeIn("", "", 0.5, 1)}
         className='w-full my-8'
       >
-        <img src={plant} className='w-full h-[50vh] object-cover brightness-75'></img>
+        <img src={plant} className='w-full h-[70vh] object-cover brightness-75'></img>
       </motion.div>
 
     </>

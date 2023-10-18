@@ -16,7 +16,7 @@ const styles = {
     heroSubText: "font-medium text-white lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-" +
             "[40px] hero-sub-text",
 
-    sectionHeadText: "md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
+    sectionHeadText: "md:text-[48px] sm:text-[40px] xs:text-[36px] text-[24px]",
     sectionSubText: "sm:text-[18px] text-[14px] uppercase tracking-wider",
 
     boxWidth: "xl:max-w-[1280px] w-full",
