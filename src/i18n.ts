@@ -28,22 +28,24 @@ i18n
                 about: "About",
                 work: "Work",
                 contact: "Contact",
+                projects: "Projects",
                 // about
                 intro_subtitle: "INTRODUCTION",
-                intro_title: "Overview",
-                intro_text: "I am a full-stack developer based in Bellaria, Rimini. I have always been passionate about photography and videomaking, and I have brought my passion to the digital world, where I have combined my taste for art and design with the logic of programming, both graphically and functionally.",
+                intro_title: "How it works",
+                intro_text: "SmartPlants can measure the moisture level in the soil, and decide when it is time to water your favourite plant."
+                + "The system is fully customisable and expandable: the ESP8266 chip can be connected to various sensors, capable of acquiring data such as temperature, light, etc., and can communicate the acquired data via a screen or a Bluetooth or WiFi connection.",
                 // cards
-                card1: "Irrigazione automatica",
-                card2: "Compatibile con ogni pianta", 
-                card3: "Espandibile", 
-                card4: "Personalizzabile",
+                card1: "Automatic irrigation",
+                card2: "Compatible with every plant", 
+                card3: "Expandable and customizable", 
+                card4: "Wireless connectivity",
                 // work 
-                work_subtitle: "PROGETTI",
-                work_title: "Alcune idee",
-                work_text: "Di seguito riporto alcuni progetti eseguiti fino ad ora, la lista è in continuo aggiornamento. Per la realizzazione di progetti custom, è possibile visitare il profilo ",
-                project1: "Sistema di irrigazione con sensore di umidità",
-                project2: "Sistema custom con indicatori di umidità, buzzer e schermo",
-                project3: "Chip, sensore e pompa dell'acqua: usa la pianta che preferisci!",
+                work_subtitle: "PROJECTS",
+                work_title: "Some ideas",
+                work_text: 'Below are some of the projects carried out so far, the list is constantly being updated. For custom projects, please visit the profile ',
+                project1: "Irrigation system with humidity sensor",
+                project2: "Customised system with moisture indicators, buzzer and screen",
+                project3: "Chip, sensor and water pump: use your favourite plant!",
                 // contact
                 contact_subtitle: "GET IN TOUCH",
                 contact_title: "Contact",
@@ -65,18 +67,21 @@ i18n
                 subtitle: "senza alzare un dito",
                 subtitle_highlighted: "",
                 // navbar
-                about: "Su di me",
+                about: "Come funziona",
                 work: "Lavoro",
                 contact: "Contatti",
+                projects: "Progetti",
                 // about
                 intro_subtitle: "INTRODUZIONE",
                 intro_title: "Funzionalità",
-                intro_text: "",
+                intro_text: "SmartPlants è in grado di misurare il livello di umidità del terreno, e decidere quanto è ora di annaffiare la tua pianta preferita."
+                + "Il sistema è totalmente personalizzabile ed espandibile: il chip ESP8266 può essere collegato a vari sensori, in grado di acquisire dati come temperatura, luce, ecc. e può comunicare i dati acquisiti attraverso uno schermo oppure una connessione Bluetooth o WiFi.",
+                // + "Infine, è possibile controllare i vari componenti da remoto grazie alla connettività wireless.",
                 // cards
                 card1: "Irrigazione automatica",
                 card2: "Compatibile con ogni pianta", 
-                card3: "Espandibile", 
-                card4: "Personalizzabile",
+                card3: "Espandibile e personalizzabile", 
+                card4: "Connettività wireless",
                 // work
                 work_subtitle: "PROGETTI",
                 work_title: "Alcune idee",

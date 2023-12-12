@@ -11,7 +11,7 @@ const ServiceCard = ({ index, title, icon }) => (
     
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 1)}
-      className='sm:w-[250px] w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      className='sm:w-[250px] w-[48%] green-pink-gradient p-[1px] rounded-[20px] shadow-card'
     >
       <div
         options={{
@@ -19,17 +19,17 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className='bg-[color:var(--secondary)] rounded-[20px] min-h-[280px] flex flex-col justify-evenly items-center px-4'
+        className='bg-[color:var(--secondary)] rounded-[20px] min-h-[250px] flex flex-col justify-evenly items-center px-4'
       >
         <img
           src={icon}
           alt='card-icon'
-          className='w-28 h-28 md:w-16 md:h-16 object-contain'
+          className='w-24 h-24 md:w-20 md:h-20 object-contain'
         />
 
-        <h5 className='text-center'>
+        <h6 className='text-center'>
           {title}
-        </h5>
+        </h6>
       </div>
     </motion.div>
 
@@ -39,7 +39,7 @@ const About = () => {
     const { i18n, t } = useTranslation();
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div className="mt-8" variants={textVariant()}>
         <p className={styles.sectionSubText}>{t('intro_subtitle')}</p>
         <h2 className={styles.sectionHeadText}>{t('intro_title')}</h2>
       </motion.div>
@@ -50,7 +50,7 @@ const About = () => {
       >{t('intro_text')}
       </motion.p>
 
-      <div className='mt-10 flex flex-wrap gap-10 justify-center'>
+      <div className='mt-10 flex flex-wrap sm:gap-10 gap-2 justify-center'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} title={t(service.id)} icon={service.icon}/>
         ))}

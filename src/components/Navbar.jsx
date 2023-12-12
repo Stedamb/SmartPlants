@@ -19,7 +19,7 @@ const Navbar = () => {
 
     const controlNavbar = () => {
         if (typeof window !== 'undefined') {
-            if (window.scrollY > window.innerHeight) {
+            if (window.scrollY > window.innerHeight / 1.1) {
                 setSticky(true);
                 setTransitioning(false);
             } else {

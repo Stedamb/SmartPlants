@@ -1,18 +1,12 @@
 import {
-    mobile,
-    backend,
-    creator,
     bg,
-    plant,
-    gif,
-    facebook,
-    instagram,
     linkedin,
     twitter,
-    web,
-    android, 
-    blockchain,
-    camera,
+    arrows,
+    plant,
+    expand,
+    wifi,
+    hero,
     github
 } from "../assets";
 
@@ -21,8 +15,8 @@ export const navLinks = [
         id: "about",
         title: "About"
     }, {
-        id: "work",
-        title: "Work"
+        id: "projects",
+        title: "Projects"
     }, {
         id: "contact",
         title: "Contact"
@@ -33,19 +27,19 @@ const services = [
     {
         id: "card1",
         title: "Web Development",
-        icon: web
+        icon: arrows
     }, {
         id: "card2",
         title: "Android Development",
-        icon: android
+        icon: plant
     }, {
         id: "card3",
         title: "Blockchain and Metaverse",
-        icon: blockchain
+        icon: expand
     }, {
         id: "card4",
         title: "Photography and Design enthusiast",
-        icon: camera
+        icon: wifi
     }
 ];
 
@@ -58,7 +52,7 @@ const projects = [
     }, {
         name: "Custom",
         description: "project2",
-        image: plant,
+        image: hero,
         source_code_link: "http://daleninbarbershop.it"
     }, {
         name: "Solo irrigazione",

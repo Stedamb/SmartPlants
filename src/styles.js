@@ -10,6 +10,8 @@ const styles = {
     flexCenter: "flex justify-center items-center",
     flexStart: "flex justify-center items-start",
 
+    anchor: "absolute top-[-10px]",
+
     // Typography
     heroHeadText: "font-black text-white lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] l" +
             "g:leading-[98px] mt-2",

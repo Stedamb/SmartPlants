@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
-import {plant} from "../assets";
+import {hero} from "../assets";
 import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
@@ -16,7 +16,7 @@ const Gallery = () => {
         variants={fadeIn("", "", 0.5, 1)}
         className='w-full my-8'
       >
-        <img src={plant} className='w-full h-[70vh] object-cover brightness-75'></img>
+        <img src={hero} className='w-full h-[70vh] object-cover brightness-75'></img>
       </motion.div>
 
     </>

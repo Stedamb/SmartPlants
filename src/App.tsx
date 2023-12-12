@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-import { About, Gallery, Hero, Navbar, Works, Footer } from "./components";
+import { About, Gallery, Hero, Navbar, Works, Contact, Footer } from "./components";
 
 import './i18n';
 
@@ -15,6 +15,7 @@ function App() {
         <About />   
         <Gallery />   
         <Works />
+        <Contact />
         <Footer />
       </div>
     </BrowserRouter>
